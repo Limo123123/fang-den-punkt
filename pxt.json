@@ -1,5 +1,6 @@
 {
     "name": "Fang den Punkt V3.0 (Schwierig)",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "core": "*",
