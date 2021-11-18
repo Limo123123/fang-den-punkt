@@ -1,5 +1,5 @@
 {
-    "name": "Fang den Punkt",
+    "name": "Fang den Punkt V2.0",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -16,5 +16,5 @@
     "supportedTargets": [
         "calliopemini"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj"
 }
