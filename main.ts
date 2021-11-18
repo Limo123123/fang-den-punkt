@@ -16,7 +16,7 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 input.onButtonPressed(Button.B, function () {
-    notmgl = 400
+    notmgl = 500
 })
 let sprite: game.LedSprite = null
 let notmgl = 0
@@ -24,11 +24,11 @@ notmgl = 150
 sprite = game.createSprite(2, 2)
 let Sprit2 = game.createSprite(2, 7)
 let Sprite3 = game.createSprite(2, 0)
-game.setLife(3)
+game.setLife(9)
 basic.forever(function () {
     sprite.move(1)
-    Sprit2.move(1)
-    Sprite3.move(1)
+    Sprit2.move(2)
+    Sprite3.move(2)
     basic.pause(notmgl)
     sprite.ifOnEdgeBounce()
     Sprit2.ifOnEdgeBounce()
