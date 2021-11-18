@@ -15,28 +15,26 @@ input.onButtonPressed(Button.A, function () {
         game.removeLife(1)
     }
 })
-input.onButtonPressed(Button.B, function () {
-    notmgl = 450
-    basic.pause(5000)
-    notmgl = 400
-    basic.pause(5000)
-    notmgl = 350
-    basic.pause(5000)
-    notmgl = 300
-    basic.pause(5000)
-    notmgl = 250
-    basic.pause(5000)
-    notmgl = 200
-    basic.pause(5000)
-    notmgl = 150
-})
 let sprite: game.LedSprite = null
-let notmgl = 0
-notmgl = 500
+let notmgl = 500
 sprite = game.createSprite(2, 2)
 let Sprit2 = game.createSprite(2, 7)
 let Sprite3 = game.createSprite(2, 0)
 game.setLife(9)
+basic.pause(2000)
+notmgl = 450
+basic.pause(5000)
+notmgl = 400
+basic.pause(5000)
+notmgl = 350
+basic.pause(5000)
+notmgl = 300
+basic.pause(5000)
+notmgl = 250
+basic.pause(5000)
+notmgl = 200
+basic.pause(5000)
+notmgl = 150
 basic.forever(function () {
     sprite.move(1)
     Sprit2.move(2)
