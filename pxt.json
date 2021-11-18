@@ -1,6 +1,6 @@
 {
     "name": "Fang den Punkt (Schwierig)",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "",
     "dependencies": {
         "core": "*",
