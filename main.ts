@@ -16,11 +16,23 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 input.onButtonPressed(Button.B, function () {
-    notmgl = 500
+    notmgl = 450
+    basic.pause(5000)
+    notmgl = 400
+    basic.pause(5000)
+    notmgl = 350
+    basic.pause(5000)
+    notmgl = 300
+    basic.pause(5000)
+    notmgl = 250
+    basic.pause(5000)
+    notmgl = 200
+    basic.pause(5000)
+    notmgl = 150
 })
 let sprite: game.LedSprite = null
 let notmgl = 0
-notmgl = 150
+notmgl = 500
 sprite = game.createSprite(2, 2)
 let Sprit2 = game.createSprite(2, 7)
 let Sprite3 = game.createSprite(2, 0)
